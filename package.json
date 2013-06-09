@@ -1,0 +1,16 @@
+{
+  "name": "sotmus",
+  "version": "0.0.1",
+  "description": "Slides for 2013 SF SOTMUS talk",
+  "main": "index.js",
+  "dependencies": {
+    "voxel-hello-world" : "*",
+    "voxel-sky": "*"
+  },
+  "scripts": {
+    "start": "beefy index.js:bundle.js --debug=false -- --fast"
+  },
+  "repository": "https://github.com:rclosner/sotmus",
+  "author": "Max Ogden",
+  "license": "BSD"
+}
